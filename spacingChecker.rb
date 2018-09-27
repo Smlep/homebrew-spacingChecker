@@ -1,4 +1,4 @@
-class SpacingChecker < Formula
+class Spacingchecker < Formula
   desc "A shell tool to check spacing around punctuation"
   homepage "https://github.com/Smlep/SpacingChecker"
   url "https://raw.githubusercontent.com/Smlep/install/master/install.sh"
