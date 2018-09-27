@@ -3,7 +3,7 @@ class Spacingchecker < Formula
   homepage "https://github.com/Smlep/SpacingChecker"
   url "https://raw.githubusercontent.com/Smlep/SpacingChecker/master/spacingChecker.tar.gz"
   sha256 "979dc9544a3bbee5c3c9ee305f0c63e57a6e45e6b825b672be1f9d6d841b97da"
-  version "1.0.0"
+  version "1.0.1"
 
   depends_on "grep"
 
