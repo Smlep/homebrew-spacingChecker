@@ -10,6 +10,6 @@ class Spacingchecker < Formula
   bottle :unneeded
 
   def install
-    bin.install SpacingChecker
+    bin.install Spacingchecker
   end
 end
