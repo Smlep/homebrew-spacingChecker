@@ -10,6 +10,8 @@ class Spacingchecker < Formula
   bottle :unneeded
 
   def install
-    bin.install 'check.sh'
+    libexec.install "languages/"
+    libexec.install "check.sh" => "spaceCheck"
+    bin.write_exec_script (libexec/"spaceCheck")
   end
 end
