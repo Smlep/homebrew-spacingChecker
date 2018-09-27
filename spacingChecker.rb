@@ -10,6 +10,6 @@ class SpacingChecker < Formula
   bottle :unneeded
 
   def install
-    sudo ./install.sh
+    bin.install SpacingChecker
   end
 end
