@@ -6,12 +6,16 @@ class Spacingchecker < Formula
   sha256 "e3999aaef06b950e4879d41b8dda351f6a166c8f52cea69ba4db50994d58cad8"
 
   bottle :unneeded
-  
+
   depends_on "grep"
 
   def install
     libexec.install "languages/"
     libexec.install "check.sh" => "spaceCheck"
     bin.write_exec_script (libexec/"spaceCheck")
+  end
+
+  test do
+    system "#{bin}/sourcedocs", "version"
   end
 end
