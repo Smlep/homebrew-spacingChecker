@@ -15,7 +15,4 @@ class Spacingchecker < Formula
     bin.write_exec_script (libexec/"spaceCheck")
   end
 
-  test do
-    system "#{bin}/sourcedocs", "version"
-  end
 end
