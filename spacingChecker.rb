@@ -11,7 +11,6 @@ class Spacingchecker < Formula
 
   def install
     libexec.install "languages/"
-    libexec.install "README.md"
     libexec.install "check.sh" => "spaceCheck"
     bin.write_exec_script (libexec/"spaceCheck")
   end
