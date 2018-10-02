@@ -2,8 +2,8 @@ class Spacingchecker < Formula
   desc "Shell tool to check spacing around punctuation"
   homepage "https://github.com/Smlep/SpacingChecker"
   url "https://raw.githubusercontent.com/Smlep/SpacingChecker/master/spacingChecker.tar.gz"
-  version "1.0.3"
-  sha256 "a082cba32ee84746f9a00526f60006d672caf6a1cb6a28b3188b273f327ff41c"
+  version "1.0.4"
+  sha256 "707f76829106d478287315b2eae605bd895925dc58a2b848fd592863957ffc38"
 
   bottle :unneeded
 
